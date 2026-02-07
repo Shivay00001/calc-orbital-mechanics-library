@@ -1,0 +1,6 @@
+version: '3.8'
+
+services:
+  orbital-calc:
+    build: .
+    command: [ "--altitude", "500" ]
