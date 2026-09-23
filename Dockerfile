@@ -6,4 +6,4 @@ RUN pip install --no-cache-dir numpy scipy pydantic fastapi uvicorn
 
 COPY . .
 
-ENTRYPOINT ["python", "src/main.py"]
+ENTRYPOINT ["python", "-m", "src.main"]
